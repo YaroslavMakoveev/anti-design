@@ -81,6 +81,12 @@
   }
 }
 
+@media (max-width: 660px) {
+  .main__card {
+    height: 500px;
+  }
+}
+
 @media (max-width: 590px) {
   .header__inner {
     height: 90vh;
@@ -99,8 +105,8 @@
   }
 }
 
-@media (max-width: 458px) {
+@media (max-width: 517px) {
   .main__card {
-    height: 500px;
+    height: 700px;
   }
 }
