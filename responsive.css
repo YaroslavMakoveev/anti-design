@@ -105,8 +105,21 @@
   }
 }
 
-@media (max-width: 517px) {
+@media (max-width: 479px) {
   .main__card {
-    height: 700px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__inner h1 {
+    font-size: 40px;
+  }
+
+  .main__card__title {
+    font-size: 22px;
+  }
+  .main__card__inner p {
+    font-size: 20px;
   }
 }
